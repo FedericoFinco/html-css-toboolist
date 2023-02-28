@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    vertical-align: middle;
 }
 
 header {
@@ -11,7 +12,6 @@ header {
 
 #title {
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     vertical-align: middle; 
     font-size: 50px;
@@ -25,4 +25,36 @@ body{
 #logo {
     vertical-align: middle;
     margin-left: 50px;
+}
+
+.navbar {
+    width: 70%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.button1 {
+    font-size: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #47adf1;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.button2 {
+    font-size: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(214, 214, 214);
+    color: rgb(221, 220, 220);
+    background-color: white;
+    margin-top: 15px;
 }
