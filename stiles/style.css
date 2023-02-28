@@ -77,8 +77,12 @@ body{
     display: inline-block;
 }
 
-.editorial{
+.bubble {
     display: inline-block;
+    border-radius: 14px;
+    background-color: aqua;
+    padding: 8px 12px;
+    color: white;
 }
 
 .argument {
