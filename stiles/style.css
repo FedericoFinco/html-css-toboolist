@@ -32,7 +32,7 @@ body{
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 60px;
     height: 60px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -40,7 +40,7 @@ body{
 
 .button1 {
     font-size: 20px;
-    padding: 2px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     border: none;
     color: white;
@@ -51,7 +51,7 @@ body{
 
 .button2 {
     font-size: 20px;
-    padding: 2px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid rgb(214, 214, 214);
     color: rgb(221, 220, 220);
@@ -65,8 +65,14 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3px;
+    padding-bottom: 30px;
 }
 
+.subtitle {
+    font-size: 35px;
+    padding-top: 35px;
+    padding-left: 50px;
+}
 .cross {
     border-radius: 50%;
     border: 2px solid red;
@@ -75,6 +81,8 @@ body{
     text-align: center;
     font-weight: bolder;
     display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .bubble {
@@ -83,10 +91,16 @@ body{
     background-color: aqua;
     padding: 8px 12px;
     color: white;
+    margin-top: 20px;
 }
 
 .argument {
     display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .check {
@@ -97,4 +111,30 @@ body{
     text-align: center;
     font-weight: bolder;
     display: inline-block;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.editorial {
+    background-color: #47adf1;
+}
+
+.q1 {
+    background-color: #9b71e3;
+}
+
+.recruiting {
+    background-color:rgb(100, 192, 169);
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c926;
 }
