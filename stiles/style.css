@@ -98,7 +98,7 @@ body{
 .bubble {
     display: inline-block;
     border-radius: 14px;
-    background-color: aqua;
+    background-color:white;
     padding: 8px 12px;
     color: white;
     margin-top: 20px;
