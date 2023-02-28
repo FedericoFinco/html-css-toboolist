@@ -4,3 +4,25 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: white;
+    align-items: center;
+}
+
+#title {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    vertical-align: middle; 
+    font-size: 50px;
+    line-height: 90px;
+}
+
+body{
+    background-color: #8b8b8b;
+}
+
+#logo {
+    vertical-align: middle;
+    margin-left: 50px;
+}
